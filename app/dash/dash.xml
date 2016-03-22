@@ -1,0 +1,31 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <Page.actionBar>
+        <ActionBar title="Kargo">
+            <NavigationButton text="Back" android.systemIcon="ic_menu_back" />
+        </ActionBar>
+    </Page.actionBar>
+    <TabView>
+        <TabView.items>
+            <TabViewItem title="Documents">
+                <TabViewItem.view>
+                    <Label text="Documents" />
+                </TabViewItem.view>
+            </TabViewItem>
+            <TabViewItem title="User">
+                <TabViewItem.view>
+                    <Label text="User" />
+                </TabViewItem.view>
+            </TabViewItem>
+            <TabViewItem title="Vehicles">
+                <TabViewItem.view>
+                    <Label text="Vehicles" />
+                </TabViewItem.view>
+            </TabViewItem>
+            <TabViewItem title="Notifications">
+                <TabViewItem.view>
+                    <Label text="Notifications" />
+                </TabViewItem.view>
+            </TabViewItem>
+        </TabView.items>
+    </TabView>
+</Page>

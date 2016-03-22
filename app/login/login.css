@@ -1,0 +1,66 @@
+.title {
+    color: royalblue;
+    font-size: 40;
+    font-weight: bold;
+    horizontal-align: center;
+    margin: 40;
+}
+
+button, textfield, label {
+    horizontal-align: center;
+    width: 80%;
+    margin-top: 2;
+    margin-bottom: 2;
+}
+
+label {
+    text-align: center;
+}
+
+.message {
+    font-size: 20;
+    color: #284848;
+    horizontal-align: center;
+    margin: 0 20;
+    text-align: center;
+}
+
+.linkbtn {
+    background-color: transparent;
+    border-width: 0;
+    margin-top: 15;
+}
+
+#lblSocial {
+    margin-top: 10;
+}
+
+.social {
+    margin-bottom: 20;
+    width: 80%;
+}
+
+.social button {
+    width: 50%;
+}
+
+.social button.gl {
+    background-color: #dc4e41;
+    /*background-image: url("res://btn_google_dark_normal");
+    background-repeat: no-repeat;
+    background-position: left;*/
+    color: white;
+}
+
+.social button.fb {
+    background-color: #3b5998;
+    color: white;
+}
+
+.signup {
+    margin-bottom: 20;
+}
+
+.signup .linkbtn {
+    margin-top: 20;
+}

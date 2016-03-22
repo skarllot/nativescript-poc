@@ -1,0 +1,22 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" actionBarHidden="true">
+  <DockLayout>
+    <StackLayout class="signup" dock="bottom">
+        <Label text="New? Sign up!" class="linkbtn" tap="{{ onTap }}" />
+    </StackLayout>
+    
+    <StackLayout>
+        <Label text="Kargo" class="title"/>
+        <TextField hint="E-mail" text="{{ email }}" />
+        <TextField hint="Password" text="{{ password }}" secure="true" />
+        <Button text="Sign In" tap="signin" />
+        
+        <Label id="lblSocial" text="or sign in with" />
+        <StackLayout orientation="horizontal" class="social">
+            <Button text="Google" class="gl" />
+            <Button text="Facebook" class="fb" />
+        </StackLayout>
+        
+        <Label text="I forgot my password" class="linkbtn" />
+    </StackLayout>
+  </DockLayout>
+</Page>
